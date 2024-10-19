@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+:root{
+  --Color--white:#f8f8f8;
+  --Color--whiteS:#c9c9c9;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  height: 56px;
+}
+header .left-section a{
+  color: #3b3b3b;
+  background-color: #f1f1f1;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+header .mid-section {
+  display: flex;
+  align-items: center;
+}
+header .mid-section form {
+  width: 600px;
+  display: flex;
+  position: relative;
+}
+header .mid-section .fa-keyboard {
+  position: absolute;
+  top: 11px;
+  left: 115px;
+  color: #3b3b3b;
+}
+header .mid-section input {
+  width: 100%;
+  padding: 10px;
+  border-radius:0 50px 50px 0 ;
+  border: solid 1px #3b3b3b;
+  outline: blue;
+  border-left: none;
+}
+header .mid-section button{
+  padding: 10px 20px;
+  border-radius:50px 0 0 50px ;
+  border: solid 1px #525252;
+  cursor: pointer;
+  background-color: #f1f1f1;
+}
+header .mid-section .recorder {
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3b3b3b;
+  height: 40px;
+  background-color: #f1f1f1;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+header .right-section {
+  display: flex;
+  align-items: center;
+}
+header .right-section img{
+  width: 60px;
+}
+.content-area {
+  height:calc(100vh - 56px);
+  display: flex;
+  background-color:#3b3b3b ;
+}
+aside {
+  width: 280px;
+  height: 100%;
+  background-color: #ffffff;
+  overflow-y: auto;
+}
+aside nav{
+  display: flex;
+  flex-direction: column;
+  padding-right: 15px;
+}
+aside nav .material-icon {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  transition: 0.5s;
+  color: #3b3b3b;
+}
+nav .material-icon i{
+  font-size: 20px;
+}
+
+aside nav .material-icon span {
+  margin-left: 24px;
+  font-size: 15px;
+}
+aside nav .material-icon:hover {
+  background-color: #c9c9c9;
+  transform: scale(1.1);
+}
+hr {
+  border: none;
+  background-color: #919191;
+  height: 1px;
+  margin: 10px 0;
+}
